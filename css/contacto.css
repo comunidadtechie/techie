@@ -1,0 +1,119 @@
+.formulario {
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 80px 0 80px 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label {
+    color: var(--color1);
+}
+
+.contact-form {
+    --form-ok-color: #6EAA70;
+    --form-error-color: #DB7D76;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contact-form *::placeholder {
+    color: #191C32;
+    opacity: 0.5;
+}
+
+.contact-form [required]:valid {
+    border: thin solid var(--form-ok-color);
+}
+
+.contact-form [required]:invalid {
+    border: thin solid var(--form-error-color);
+}
+
+.contact-form-error {
+    margin-top: -1rem;
+    font-size: 80%;
+    background-color: var(--form-error-color);
+    color: #F2F2F2;
+    transition: all 800ms ease;
+}
+
+.contact-form-error.is-active {
+    display: block;
+    animation: show-menssage 1s 1 normal 0s ease-out both;
+}
+
+.none {
+    display: none;
+}
+
+@keyframes show-message {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.contact-form-response {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    background: transparent;
+    color: #350E72;
+    outline: none;
+    padding: 20px 10px;
+    max-width: 400px;
+    width: 100%
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+form textarea {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 15px;
+    background: transparent;
+    color: #350E72;
+    outline: none;
+    padding: 20px 10px;
+    resize: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    color: #350E72;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #350E72;
+    padding: 20px 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    transition: color .6s;
+}
+
+input[type="submit"]:hover {
+    color: #F2F2F2;
+    background-color: #350E72;
+}

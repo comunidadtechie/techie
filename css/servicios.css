@@ -1,0 +1,21 @@
+.servicios {
+  display: flex;
+  color: #350E72;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.caja-servicios {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.caja-servicios>h4 {
+  margin-bottom: var(--espacios);
+}
+
+.caja-servicios>p {
+  text-align: center;
+}

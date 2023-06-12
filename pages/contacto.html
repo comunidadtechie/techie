@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <link rel="icon" type="image/png" href="../img/t.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="hidden">
+    <nav>
+        <section class="contenedor nav">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/logo.png" alt="Logo Techie"></a>
+            </div>
+            <div class="enlaces-nav">
+                <a href="../index.html">Inicio</a>
+                <a href="equipo.html">Equipo</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="trabajos.html">Trabajos</a>
+                <a href="tecnologias.html">Tecnologías</a>
+                <a href="#" class="active">Contacto</a>
+            </div>
+            <div class="hamburguer">
+                <i class="fas fa-bars"></i>
+            </div>
+        </section>
+    </nav>
+    <main>
+        <section class="contenedor formulario">
+            <div>
+                <h3>Contacto</h3>
+                <br>
+                <form class="contact-form" action="https://formsubmit.co/f1bd506e59029c67178b9a0e03e85785" method="POST"
+                    autocomplete="off">
+                    <label for="name">Nombre</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="ej. Star Fire"
+                        title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                        required>
+                    <br>
+                    <label for="email">Correo electrónico</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="ej. starfire@email.com"
+                        title="Email incorrecto"
+                        pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                    <br>
+                    <label for="asunto">Asunto</label>
+                    <br>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto a tratar"
+                        title="El asunto es requerido" required>
+                    <br>
+                    <label for="message">Mensaje</label>
+                    <br>
+                    <textarea id="message" name="message" placeholder="Escribe tu mensaje" rows="5"
+                        data-pattern="^.{1,255}$" title="Tu comentario no debe exceder los 255 caracteres"
+                        required></textarea>
+                    <br>
+                    <input type="submit" value="Enviar mensaje">
+                    <input type="hidden" name="_next" value="https://soylaprofemarian.my.canva.site/gracias">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="redes">
+        <div class="footer contenedor">
+            <div class="iconos">
+                <a href="mailto:comunidadtechie@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.instagram.com/comunidadtechie/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/comunidadtechie"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="eslogan">La pasión e innovación es lo que nos distingue del resto</p>
+            <p class="copy">&#9426 Mariana Miño (Techie) - 2023</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/6fa2c33f6b.js" crossorigin="anonymous"></script>
+    <script src="../scripts/menu.js"></script>
+</body>
+</html>

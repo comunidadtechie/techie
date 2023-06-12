@@ -1,0 +1,54 @@
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -50;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background-color: #FFAFE750;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.textos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #FFAC03;
+  overflow: hidden;
+  text-align: center;
+}
+
+.textos>h1 {
+  font-size: 80px;
+  ;
+}
+
+.textos>h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.marca {
+  margin-top: 20px;
+  color: #350E72;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #350E72;
+  padding: 10px 0;
+  width: 200px;
+  text-align: center;
+  transition: color .6s;
+}
+
+.marca:hover {
+  color: #F2F2F2;
+  background-color: #350E72;
+}

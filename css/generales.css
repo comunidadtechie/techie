@@ -1,0 +1,29 @@
+:root {
+  --color1: rgb(99, 103, 188);
+  --color2: rgb(255, 175, 231);
+  --color3: rgb(163, 130, 30);
+  --fondo: #F2F2F2;
+  --titulos: 33px;
+  --margenes: 60px;
+  --espacios: 10px;
+  --espacios-contenido: 45px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+  background: var(--fondo);
+}
+
+header,
+main {
+  flex: 1;
+}
