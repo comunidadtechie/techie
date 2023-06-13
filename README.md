@@ -2,11 +2,11 @@
 
 ## Introducción 📢
 
-_Imaginá un rincón mágico en el vasto universo digital llamado Techie, donde las mentes creativas y los maestros del código se unen para crear obras maestras de desarrollo web. En este lugar, las líneas de HTML se entrelazan con gracia, los estilos CSS bailan al ritmo de la imaginación y los scripts JavaScript destellan como partículas fugaces en el firmamento digital._
+_Imaginá un rincón mágico en el vasto universo digital llamado Techie, donde las mentes creativas y los maestros del código se unen para crear obras maestras de Desarrollo de Software. En este lugar, las líneas de HTML se entrelazan con gracia, los estilos CSS bailan al ritmo de la imaginación y los scripts JavaScript destellan como partículas fugaces en el firmamento digital._
 
 ## Construido con 🛠️
 
-_Al adentrarse al mundo de Techie, vas a ser recibid@ por una agencia de desarrollo web que es como un taller de alquimistas digitales. Sus carpetas son como cajones llenos de herramientas y tesoros para construir sitios web extraordinarios._
+_Al adentrarse al mundo de Techie, vas a ser recibid@ por una agencia de Desarrollo de Software que es como un taller de alquimistas digitales. Sus carpetas son como cajones llenos de herramientas y tesoros para construir cosas extraordinarias._
 
 **HTML5:** la base sólida sobre la cual se construye todo. Es como una partitura musical que dirige la sinfonía de contenido y estructura. Cada etiqueta y atributo es una nota que se combina con precisión para crear una experiencia armoniosa.
 
